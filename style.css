@@ -1,0 +1,80 @@
+:root {
+  --darkgrey: #dadce0;
+  --lightgrey: #f1f3f4;
+  --blue: #4285f4;
+  --white: #ffffff;
+}
+
+.main {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.display {
+  min-height: 80px;
+  border: 0.5px solid var(--darkgrey);
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.previous-operand {
+  font-size: 20px;
+}
+
+.current-operand {
+  font-size: 30px;
+}
+
+.calculate {
+  display: flex;
+  font-family: arial, sans-serif;
+  margin-left: 2.5px;
+  border-spacing: unset;
+}
+
+.arithmetic-operations {
+  border-spacing: unset;
+}
+
+.number-button-and-operations {
+  border-spacing: unset;
+}
+
+.light-grey-background {
+  background-color: var(--lightgrey);
+}
+
+.dark-grey-background {
+  background-color: var(--darkgrey);
+}
+
+.blue-background {
+  background-color: var(--blue);
+}
+
+.field {
+  padding: 10px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fs13px {
+  font-size: 13px;
+}
+
+.white-color {
+  color: var(--white);
+  font-weight: bold;
+}
+
+.delete-icon {
+  width: 12px;
+}
